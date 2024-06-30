@@ -1,0 +1,176 @@
+/* Ensure body and html take full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  overflow: hidden; /* Hide both vertical and horizontal scrollbars */
+}
+/*----------------------------- page header -----------------------------------*/
+.pageTop-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: 85%;
+  width: 100%;
+  flex-direction: row;
+  box-shadow: 0 -1px 5px rgba(248, 247, 247, 0.1);
+}
+.pageTop-links a {
+  text-decoration: none;
+}
+.pageTop-links a:hover {
+  text-decoration: underline;
+}
+.dots {
+  font-size: 20px;
+  cursor: pointer;
+}
+/* sign in button */
+.Sign_in_button {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1a73e8;
+  border: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex-direction: row;
+}
+.sign-in-button:hover {
+  background-color: #0f5bb5;
+}
+.sign-in-button:active {
+  background-color: #0a3e91;
+}
+
+/* -----------------------------------google photo with box search-------------------------------- */
+.mid_area {
+  /* all content in the middel --> google photo with box search */
+  border: 2px solid white;
+  background-color: white;
+  width: 600px;
+  height: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-top: -200px;
+}
+.sreach_box {
+  border-radius: 5cm;
+  text-align: center;
+  width: 500px;
+  height: 50px;
+  border: 3px solid rgb(139, 138, 138);
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -130%;
+}
+.search_area {
+  width: 350px;
+  height: 40px;
+  margin-top: 5px;
+  border: 0px none;
+  margin-left: 0px;
+  font-size: 20px;
+  outline: 0px;
+}
+.imglogo {
+  width: 300px;
+  height: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 200px;
+  margin-bottom: 790px;
+}
+.icons {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+.mike {
+  margin-right: 10px;
+  float: right;
+}
+.camera {
+  margin-right: 10px;
+  float: right;
+}
+.search {
+  margin-left: 10px;
+  float: left;
+}
+.search_Lucky_buttons {
+  /* The buttons below the search box*/
+  padding: 20px;
+  color: #000;
+  border: none;
+  /* margin-top:5px ;
+  */
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button_search,
+.button_FeelingLucky {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #5f6368;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.button_search:hover,
+.button_FeelingLucky:hover {
+  background-color: #f1f3f4;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+  border: 1px solid #dadce0;
+}
+
+/* --------------------------------------------------footer----------------------------------- */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 7%;
+  width: 100%;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+.footer-top {
+  padding: 10px;
+  border-bottom: 1px solid #e4e4e4;
+  color: #555;
+  flex-direction: row;
+}
+.footer-top span {
+  margin-left: 10px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: row;
+}
+.footer-links {
+  display: flex;
+  gap: 15px; /* is used to provide a 15-pixel space between each link within the .footer-links div.*/
+  padding-left: 10px; /* Adjust the left padding */
+  padding-right: 10px; /* Adjust the right padding */
+}
+.footer-links a {
+  color: #555;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
